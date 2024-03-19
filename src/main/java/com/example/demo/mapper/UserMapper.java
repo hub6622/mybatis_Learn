@@ -15,6 +15,7 @@ public interface UserMapper {
     int updateUserById(User user);
     int deleteUserById(int id);
 
+    void deleteUserByIdList(List idList);
     void updateUserByMap(Map map);
     List<User> findByCondition(User user);
 }

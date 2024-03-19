@@ -65,9 +65,17 @@
             addr=#{addr}
         where id = #{id}
     </update>
-    <delete id="deleteUserById">
+    <delete id="deleteUserByIds">
         delete
         from t_user
         where id = #{id};
+    </delete>
+    <delete id="deleteUserByIdList" parameterType="Integer">
+        delete from t_user
+        where id in
+        <foreach collection="idList" separator="," open="(" close=")" item="id">
+            #{id}
+        </foreach>
+
     </delete>
 </mapper>

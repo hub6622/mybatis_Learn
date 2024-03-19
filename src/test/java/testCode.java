@@ -9,13 +9,25 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class testCode {
 
+    @Test
+    public void deleteUserByIdList() throws IOException {
+        InputStream inputStream = Resources.getResourceAsStream("mybatis-config.xml");
+        SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
+        SqlSessionFactory sqlSessionFactory = builder.build(inputStream);
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+        List idList=new ArrayList();
+        idList.add(21);
+        idList.add(22);
+        idList.add(23);
+        mapper.deleteUserByIdList(idList);
+        sqlSession.commit();
+        sqlSession.close();
+    }
     @Test
     public void findByCondition() throws IOException {
         InputStream inputStream = Resources.getResourceAsStream("mybatis-config.xml");
