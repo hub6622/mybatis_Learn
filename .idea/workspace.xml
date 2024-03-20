@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12e36adb-9fa4-4517-a0a2-ebfcdec05175" name="Changes" comment="first update">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/df9f339e-cbba-4c47-9aee-4a381fad6076.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/df9f339e-cbba-4c47-9aee-4a381fad6076.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCode.java" afterDir="false" />
+    <list default="true" id="12e36adb-9fa4-4517-a0a2-ebfcdec05175" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +41,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.ChangelistConflict",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "27ba50852ae10076f4845826e151ca1b",
     "vue.rearranger.settings.migration": "true"
   },
@@ -129,6 +125,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="12e36adb-9fa4-4517-a0a2-ebfcdec05175" name="Changes" comment="" />
@@ -140,7 +139,7 @@
       <workItem from="1710421493861" duration="26000" />
       <workItem from="1710647180741" duration="857000" />
       <workItem from="1710846341585" duration="1278000" />
-      <workItem from="1710895509690" duration="1121000" />
+      <workItem from="1710895509690" duration="3565000" />
     </task>
     <task id="LOCAL-00001" summary="change 666.sql">
       <created>1710413072454</created>
@@ -163,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710414206138</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first update">
+      <option name="closed" value="true" />
+      <created>1710896669214</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710896669214</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
